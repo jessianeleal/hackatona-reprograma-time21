@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TUTU - Eduacação Financeira</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg nav__tutu fixed-top">
+        <div class="container">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <div class="logo__tutu">
+                <a class="navbar-brand" href="./index.html"><img src="./assets/logo_min.png"
+                        alt="Logo da TUTU - Educação Financeira">Tutu</a>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn__tutu dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Meu tutu
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="./index.html">Painel</a>
+                    <a class="dropdown-item" href="https://www.guiabolso.com.br/web/#/financas/extrato?accounts=5751723"
+                        target="blanc">Dados</a>
+                    <a class="dropdown-item" href="./trilha.html">Trilha</a>
+                    <a class="dropdown-item" href="./investimento.html">Investimento</a>
+                    <a class="dropdown-item" href="#">Sair</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="my-5 pt-5">
+        <div class="container card_tutu">
+            <div>Painel > Trilha ><strong> Investimento</strong></div>
+        </div>
+    </header>
+    <section class="my-5">
+        <div class="card container">
+            <div class="card-body">
+                <div class="">
+                    <div class="conhecimento_tutu">
+                        <h2 class="card-title card-title__tutu">Na prática...</h2>
+                    </div>
+                    <div class="trilha__tutu mt-5">
+                        <h2>Você tem <strong>R$113,00</strong> na sua conta, vamos fazer uma <strong>aplicação?</strong>
+                        </h2>
+                        <button type="button" class="btn btn-primary btn-card__tutu mb-5" data-toggle="modal"
+                            data-target="#exampleModal">Coletar Tutus</button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Onde investir?</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="accordion" id="accordionExample">
+                                            <div class="card">
+                                                <div class="card-header" id="headingOne">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn " type="button" data-toggle="collapse"
+                                                            data-target="#collapseOne" aria-expanded="true"
+                                                            aria-controls="collapseOne">
+                                                            <div class="banco_tutu">
+                                                                Bradesco
+                                                            </div>
+                                                        </button>
+                                                    </h2>
+                                                </div>
+
+                                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                                    data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                        <p>Rendimento: 0.7%/mês</p>
+                                                        <p>Validade: 10/03/2019</p>
+                                                        <a href="./investimento.html"><button type="button"
+                                                                class="btn btn-primary coletar__tutu">Aplicar</button></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header" id="headingTwo">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn  collapsed" type="button"
+                                                            data-toggle="collapse" data-target="#collapseTwo"
+                                                            aria-expanded="false" aria-controls="collapseTwo">
+                                                            <div class="banco_tutu">
+                                                                
+                                                                Itaú
+                                                            </div>
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                                    data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                        <p>Rendimento: 0.7%/mês</p>
+                                                        <p>Validade: 10/03/2019</p>
+                                                        <a href="./investimento.html"><button type="button"
+                                                                class="btn btn-primary coletar__tutu">Aplicar</button></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header" id="headingThree">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn collapsed" type="button"
+                                                            data-toggle="collapse" data-target="#collapseThree"
+                                                            aria-expanded="false" aria-controls="collapseThree">
+                                                            <div class="banco_tutu">
+                                                                
+                                                                Easynvest
+                                                            </div>
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                                    data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                        <p>Rendimento: 0.7%/mês</p>
+                                                        <p>Validade: 10/03/2019</p>
+                                                        <a href="./investimento.html"><button type="button"
+                                                                class="btn btn-primary coletar__tutu">Aplicar</button></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header" id="headingFour">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn collapsed" type="button"
+                                                            data-toggle="collapse" data-target="#collapseFour"
+                                                            aria-expanded="false" aria-controls="collapseFour">
+                                                            <div class="banco_tutu">
+                                                                
+                                                                Modal Mais
+                                                            </div>
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                                    data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                        <p>Rendimento: 0.7%/mês</p>
+                                                        <p>Validade: 10/03/2019</p>
+                                                        <a href="./investimento.html"><button type="button"
+                                                                class="btn btn-primary coletar__tutu">Aplicar</button></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Cancelar</button>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="py-5 fundo__tutu">
+        <div class="container footer__tutu">
+            <div class="info__tutu">
+                <a href="#">Sobre</a>
+                <a href="#">Dúvidas</a>
+            </div>
+            <div class="copy__tutu">
+                <p class="m-0 ml-5">© Copyright 2019 - TUTU</p>
+            </div>
+            <div class="redes_tutu">
+                <a class="mr-2" href="#"><img src="./assets/facebook.png" alt="Ícone do Facebook da Tutu"></a>
+                <a class="mr-2" href="#"><img src="./assets/instagram.png" alt="Ícone do Instagram da Tutu"></a>
+                <a href="#"><img src="./assets/linkedin.png" alt="Ícone do Linkedin da Tutu"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/jquery.slim.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
